@@ -1,0 +1,14 @@
+Also note that:
+* Valid values for product_name include 'Tesla','iPhone' and 'Humane pin'
+
+
+Question:
+--------
+{user_question}
+--------
+Reminder: Generate a DuckDB SQL to answer to the question:
+* respond as a valid JSON Document
+* [Best] If the question can be answered with the available tables: {{"sql": <sql here>}} 
+* If the question cannot be answered with the available tables: {{"error": <explanation here>}}
+* Ensure that the entire output is returned on only one single line
+* Keep your query as simple and straightforward as possible; do not use subqueries
